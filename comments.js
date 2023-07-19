@@ -1,51 +1,16 @@
-// create web server
-// var http = require('http');
-// var server = http.createServer(function(request, response){
-//     response.writeHead(200, {"Content-Type": "text/plain"});
-//     response.end("Hello World\n");
-// });
-// server.listen(8000);
-// console.log("Server running at http://localhost:8000/");
-// create web server
-// var http = require('http');
-// var server = http.createServer(function(request, response){
-//     response.writeHead(200, {"Content-Type": "text/html"});
-//     response.end("<html><body><h1>Hello World</h1></body></html>");
-// });
-// server.listen(8000);
-// console.log("Server running at http://localhost:8000/");
-// create web server
-// var http = require('http');
-// var server = http.createServer(function(request, response){
-//     response.writeHead(200, {"Content-Type": "text/html"});
-//     response.end("<html><body><h1>Hello World</h1></body></html>");
-// });
-// server.listen(8000);
-// console.log("Server running at http://localhost:8000/");
-// create web server
-// var http = require('http');
-// var server = http.createServer(function(request, response){
-//     response.writeHead(200, {"Content-Type": "text/html"});
-//     response.end("<html><body><h1>Hello World</h1></body></html>");
-// });
-// server.listen(8000);
-// console.log("Server running at http://localhost:8000/");
-// create web server
-// var http = require('http');
-// var server = http.createServer(function(request, response){
-//     response.writeHead(200, {"Content-Type": "text/html"});
-//     response.end("<html><body><h1>Hello World</h1></body></html>");
-// });
-// server.listen(8000);
-// console.log("Server running at http://localhost:8000/");
-// create web server
-// var http = require('http');
-// var server = http.createServer(function(request, response){
-//     response.writeHead(200, {"Content-Type": "text/html"});
-//     response.end("<html><body><h1>Hello World</h1></body></html>");
-// });
-// server.listen(8000);
-// console.log("Server running at http://localhost:8000/");
-// create web server
-// var http = require('http');
-// var server = http
+// create web server using express
+const express = require('express');
+const app = express();
+
+// import the body-parser
+const bodyParser = require('body-parser');
+
+// import the comments data
+const comments = require('./data/comments');
+
+// import the contacts data
+const contacts = require('./data/contacts');
+
+// import the products data
+const products = require('./data/p
+
