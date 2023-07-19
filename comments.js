@@ -12,5 +12,4 @@ const comments = require('./data/comments');
 const contacts = require('./data/contacts');
 
 // import the products data
-const products = require('./data/p
 
