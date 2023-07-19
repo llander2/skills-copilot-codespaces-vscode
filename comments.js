@@ -10,6 +10,3 @@ const comments = require('./data/comments');
 
 // import the contacts data
 const contacts = require('./data/contacts');
-
-// import the products data
-
